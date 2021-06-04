@@ -1,0 +1,191 @@
+@charset "utf-8";
+/* CSS Document */
+html{
+	color: white;
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+}
+body {   
+	overflow-x: hidden;
+	min-width: 100%;
+	background-size:1920px auto;;
+  background-repeat: no-repeat;
+	margin-bottom: 100px;
+  
+}
+.container{	
+}
+.headermarginchar{
+	margin-top: 64px;
+}
+.abilitycontainer {
+	display: flex;
+	margin-top: 125px;
+	margin-left: 100px;
+	margin-right:4px;
+	
+}
+.abilitytext {
+	margin-left: 16px;
+	margin-RIGHT: 8px;
+	font-size: 20px;
+	
+}
+.center{
+	display: flex;
+	margin-top: 100px;
+	margin-left: 50px;
+	margin-right:50px;
+	margin-bottom: 100px;
+	
+}
+.leftcontainer {
+	display: flex;
+	margin-top: 0px;
+	margin-left: 50px;
+	margin-right:600px;
+	
+}
+.rightcontainer {
+	display: flex;
+	margin-top: 0px;
+	margin-left: 600px;
+	margin-right:50px;
+	
+}
+.rightcentrecontainer {
+	display: flex;
+	margin-top: 0px;
+	margin-left: 16vw;
+	margin-right:4vw;
+	
+}
+.rightcentrecontainer {
+
+	margin-left: 17vw;	
+	font-size: 0px;
+}
+.rightimgcontainer {
+
+	margin-right: 8vw;	
+}
+.leftimgcontainer {
+
+	margin-left: 8vw;	
+}
+.border
+{
+	border: 2px solid #ffffff;
+	border-radius: 7px;
+}
+.imgcenter{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.sidebar {
+    position: fixed;
+    height: 100%;
+    width: 0;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: rgba(16, 0, 64, 0.5);
+    overflow-x: hidden;
+    transition: 0.4s;
+    padding: 1rem 0;
+    box-sizing:border-box;
+}
+
+.sidebar .boton-cerrar {
+    position: absolute;
+    top: 0.5rem;
+    right: 1rem;
+    font-size: 2rem;
+    display: block;
+    padding: 0;
+    line-height: 1.5rem;
+    margin: 0;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.sidebar ul, .sidebar li{
+    margin:0;
+	margin-bottom: 100px;
+    padding:0;
+    list-style:none inside;
+}
+
+.sidebar ul {
+    margin: 4rem auto;
+    display: block;
+    width: 80%;
+    min-width:200px;
+}
+
+.sidebar a {
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+    display: block;
+    font-size: 120%;
+    color: #eee;
+    text-decoration: none;
+    
+}
+
+.sidebar a:hover{
+    color:#fff;
+
+}
+.abrir-cerrar {
+    color: rgba(16, 0, 64, 0.3);
+    font-size:1rem;   
+}
+
+#abrir {
+    
+}
+#cerrar {
+    display:none;
+}
+#contenido {
+    transition: margin-left .4s;
+    padding: 1rem;
+}
+.w3-padding-64{padding-top:64px!important;padding-bottom:64px!important}
+.w3-center {
+    text-align: center!important;
+	margin: auto;
+  width: 50%;
+}
+.w3-row-padding, .w3-row-padding>.w3-half, .w3-row-padding>.w3-third, .w3-row-padding>.w3-twothird, .w3-row-padding>.w3-threequarter, .w3-row-padding>.w3-quarter, .w3-row-padding>.w3-col {
+    padding: 0 8px;
+}
+.w3-margin-bottom {
+    margin-bottom: 16px!important;
+}
+.w3-col.m4, .w3-full {
+    width: 25%;
+}
+.w3-col, .w3-half, .w3-third, .w3-twothird, .w3-threequarter, .w3-quarter {
+    float: left;
+    width: 300px;
+}
+
+.w3-ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.w3-ul li {
+    padding: 8px 16px;
+}
+.w3-container:after, .w3-container:before, .w3-panel:after, .w3-panel:before, .w3-row:after, .w3-row:before, .w3-row-padding:after, .w3-row-padding:before, .w3-cell-row:before, .w3-cell-row:after, .w3-clear:after, .w3-clear:before, .w3-bar:before, .w3-bar:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.w3-button{width:100%;text-align:left;padding:8px 16px;background-color:#3E114F;color: aliceblue}
+.w3-button:hover{color:#000!important;background-color:#C58AFF}
